@@ -17,7 +17,7 @@ makeCacheMatrix <- function(x = matrix()) {
         getsolve <- function() inv
         
         ## Return a list of previously defined matrix and inverse.
-        list(set = set, get = get, setsolve = setsolve,getsolve = getsolve)
+        list(set = set, get = get, setsolve = setsolve, getsolve = getsolve)
 }
 
 
